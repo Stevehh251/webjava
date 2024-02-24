@@ -1,0 +1,101 @@
+proj_id,proj_name,start_date,end_date,status
+1,Flexidy project,2023-06-28,2023-09-08,Closed
+2,Ventosanzap project,2023-08-31,2023-10-20,Closed
+3,Bitwolf project,2023-04-06,2023-06-12,Closed
+4,Regrant project,2023-12-20,2024-02-24,In progress
+5,Home Ing project,2023-05-27,2023-07-09,Closed
+6,Zamit project,2024-01-10,2024-02-13,Closed
+7,Aerified project,2023-12-09,2024-01-05,Closed
+8,Job project,2023-05-03,2023-05-18,Closed
+9,Trippledex project,2023-09-05,2023-09-27,Closed
+10,Ronstring project,2023-04-22,2023-05-09,Closed
+11,Y-Solowarm project,2023-09-09,2023-10-06,Closed
+12,Toughjoyfax project,2023-09-24,2023-10-28,Closed
+13,Wrapsafe project,2023-08-24,2023-10-09,Closed
+14,Trippledex project,2023-04-06,2023-06-08,Closed
+15,Vagram project,2023-11-09,2024-01-21,Closed
+16,Regrant project,2023-09-20,2023-11-16,Closed
+17,Zathin project,2024-02-17,2024-05-13,In progress
+18,Zontrax project,2023-08-25,2023-09-24,Closed
+19,Latlux project,2023-03-02,2023-04-03,Closed
+20,Quo Lux project,2024-02-19,2024-04-10,In progress
+21,Temp project,2024-02-06,2024-03-22,In progress
+22,Kanlam project,2023-10-29,2023-12-06,Closed
+23,Fintone project,2023-02-12,2023-04-04,Closed
+24,Y-Solowarm project,2023-12-19,2024-01-25,Closed
+25,Tres-Zap project,2023-11-20,2023-12-22,Closed
+26,Temp project,2023-10-30,2024-01-16,Closed
+27,Cardify project,2023-03-14,2023-06-07,Closed
+28,Andalax project,2023-12-27,2024-01-27,Closed
+29,Konklux project,2023-11-20,2024-01-14,Closed
+30,Alphazap project,2023-11-26,2023-12-27,Closed
+31,Otcom project,2024-02-21,2024-04-29,In progress
+32,Cardguard project,2023-10-13,2023-11-28,Closed
+33,Flowdesk project,2023-04-21,2023-05-11,Closed
+34,Mat Lam Tam project,2023-02-27,2023-03-26,Closed
+35,Transcof project,2023-02-04,2023-03-21,Closed
+36,Fixflex project,2023-05-23,2023-07-31,Closed
+37,Zoolab project,2023-03-26,2023-04-15,Closed
+38,Y-Solowarm project,2023-04-30,2023-06-10,Closed
+39,Bigtax project,2023-06-30,2023-09-17,Closed
+40,Matsoft project,2023-11-28,2023-12-15,Closed
+41,Tresom project,2023-06-17,2023-08-20,Closed
+42,Otcom project,2023-12-02,2024-01-18,Closed
+43,Tampflex project,2023-07-06,2023-08-06,Closed
+44,Subin project,2023-07-30,2023-10-23,Closed
+45,Stim project,2023-10-23,2023-11-11,Closed
+46,Domainer project,2023-02-21,2023-04-19,Closed
+47,Prodder project,2023-07-21,2023-08-08,Closed
+48,Cardguard project,2023-04-04,2023-04-24,Closed
+49,Keylex project,2023-09-03,2023-10-05,Closed
+50,Bamity project,2023-05-07,2023-06-14,Closed
+51,Job project,2023-10-31,2023-11-25,Closed
+52,Tampflex project,2023-09-05,2023-09-25,Closed
+53,Pannier project,2023-12-18,2024-01-26,Closed
+54,Home Ing project,2023-09-19,2023-10-19,Closed
+55,Duobam project,2024-02-14,2024-03-31,In progress
+56,Biodex project,2023-08-22,2023-09-30,Closed
+57,Aerified project,2023-04-28,2023-05-27,Closed
+58,Tresom project,2023-08-14,2023-09-28,Closed
+59,Lotstring project,2023-06-16,2023-09-02,Closed
+60,Duobam project,2023-05-26,2023-07-23,Closed
+61,Gembucket project,2023-04-07,2023-05-22,Closed
+62,Pannier project,2023-06-25,2023-07-22,Closed
+63,Tres-Zap project,2023-03-02,2023-05-02,Closed
+64,Ventosanzap project,2023-03-01,2023-03-21,Closed
+65,Tresom project,2023-08-03,2023-08-27,Closed
+66,Bytecard project,2023-11-08,2024-01-07,Closed
+67,Toughjoyfax project,2023-10-05,2023-11-18,Closed
+68,Otcom project,2023-07-01,2023-07-31,Closed
+69,Tin project,2023-12-10,2024-02-28,In progress
+70,Y-find project,2023-07-12,2023-07-28,Closed
+71,Otcom project,2023-02-21,2023-03-16,Closed
+72,Regrant project,2023-02-18,2023-05-13,Closed
+73,Andalax project,2023-04-19,2023-05-07,Closed
+74,Andalax project,2023-05-28,2023-07-03,Closed
+75,Konklab project,2024-01-23,2024-02-26,In progress
+76,Greenlam project,2023-08-18,2023-10-28,Closed
+77,Keylex project,2024-01-21,2024-04-14,In progress
+78,Asoka project,2023-05-17,2023-06-05,Closed
+79,Hatity project,2023-11-04,2024-01-25,Closed
+80,Pannier project,2023-03-23,2023-04-13,Closed
+81,Y-Solowarm project,2023-06-29,2023-07-30,Closed
+82,Overhold project,2023-10-07,2023-12-17,Closed
+83,Bitchip project,2023-06-25,2023-08-15,Closed
+84,Tin project,2023-11-23,2024-01-26,Closed
+85,Quo Lux project,2023-12-04,2024-01-13,Closed
+86,Latlux project,2023-09-22,2023-11-12,Closed
+87,Prodder project,2023-11-13,2024-01-29,Closed
+88,Subin project,2023-09-26,2023-11-03,Closed
+89,Aerified project,2023-04-26,2023-06-14,Closed
+90,Kanlam project,2023-03-19,2023-04-09,Closed
+91,Aerified project,2023-02-07,2023-03-14,Closed
+92,Sub-Ex project,2023-07-27,2023-08-11,Closed
+93,Treeflex project,2024-01-04,2024-01-18,Closed
+94,Subin project,2023-05-29,2023-06-14,Closed
+95,Latlux project,2024-01-19,2024-02-27,In progress
+96,Holdlamis project,2023-09-17,2023-10-31,Closed
+97,Tresom project,2023-05-10,2023-05-24,Closed
+98,Keylex project,2023-07-03,2023-08-07,Closed
+99,Daltfresh project,2024-01-18,2024-03-26,In progress
+100,Bytecard project,2023-06-20,2023-07-09,Closed

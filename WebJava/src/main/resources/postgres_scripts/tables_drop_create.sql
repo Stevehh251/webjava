@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS role_history;
 DROP TABLE IF EXISTS payments_history;
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS projects;
-DROP TABLE IF EXISTS payments_proj;
 DROP TABLE IF EXISTS payments_policies;
 
 CREATE TABLE employees (
@@ -33,6 +32,7 @@ CREATE TABLE role_history (
 CREATE TABLE payments_history (
     pay_id SERIAL PRIMARY KEY,
     emp_id INTEGER NOT NULL,
+    policy_id INTEGER NOT NULL,
     pay_date date NOT NULL,
     amount INTEGER NOT NULL
 );
@@ -49,14 +49,9 @@ CREATE TABLE payments_policies (
     policy_id SERIAL PRIMARY KEY,
     name text NOT NULL,
     type text NOT NULL,
+    proj_id INTEGER,
     periodicity INTEGER, -- In days
     start_date date,
     end_date date,
     amount INTEGER
-);
-
-CREATE TABLE payments_proj(
-    policy_id INTEGER,
-    proj_id INTEGER,
-    PRIMARY KEY (policy_id, proj_id)
 );

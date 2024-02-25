@@ -15,3 +15,6 @@ ALTER TABLE emp_on_proj
 
 ALTER TABLE emp_on_proj
     ADD CONSTRAINT emp_id_fkey FOREIGN KEY (emp_id) REFERENCES employees(emp_id);
+
+ALTER TABLE payments_policies
+    ADD CONSTRAINT proj_id_fkey FOREIGN KEY (proj_id) REFERENCES projects(proj_id);

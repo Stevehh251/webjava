@@ -137,9 +137,9 @@ INSERT INTO payments_history(emp_id, policy_id, pay_date, amount) VALUES
 (12,12,'2022-08-13',79879);
 
 INSERT INTO payments_policies(name, type, proj_id, periodicity, start_date, end_date, amount) VALUES
-('Project Manager salary','salary',30,NULL,NULL,NULL,80000),
-('Software Developer salary','salary',30,NULL,NULL,NULL,80000),
-('Quality Assurance Analyst salary','salary',30,NULL,NULL,NULL,80000),
+('Project Manager salary','salary',NULL,30,NULL,NULL,80000),
+('Software Developer salary','salary',NULL,30,NULL,NULL,80000),
+('Quality Assurance Analyst salary','salary',NULL,30,NULL,NULL,80000),
 ('Systems Analyst salary','salary',NULL,30,NULL,NULL,80000),
 ('Database Administrator salary','salary',NULL,30,NULL,NULL,80000),
 ('Network Engineer salary','salary',NULL,30,NULL,NULL,80000),

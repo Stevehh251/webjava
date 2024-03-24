@@ -3,7 +3,6 @@ package cmc.WebJava.relations;
 import lombok.*;
 
 import jakarta.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Table(name = "emp_on_proj")
@@ -23,13 +22,13 @@ public class EmpOnProj implements DefaultEntity<Long> {
     @JoinColumn(name = "proj_id")
     @ToString.Exclude
     @NonNull
-    private Projects project;
+    private Project project;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "emp_id")
     @ToString.Exclude
     @NonNull
-    private Employees employee;
+    private Employee employee;
 
     @Column(nullable = false, name = "role")
     @NonNull

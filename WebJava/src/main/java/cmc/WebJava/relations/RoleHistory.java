@@ -4,7 +4,6 @@ import lombok.*;
 
 import jakarta.persistence.*;
 import java.util.Date;
-import java.util.Objects;
 
 @Entity
 @Table(name = "role_history")
@@ -24,13 +23,13 @@ public class RoleHistory implements DefaultEntity<Long> {
     @JoinColumn(name = "proj_id")
     @ToString.Exclude
     @NonNull
-    private Projects project;
+    private Project project;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "emp_id")
     @ToString.Exclude
     @NonNull
-    private Employees employee;
+    private Employee employee;
 
     @Column(nullable = false, name = "rec_date")
     @NonNull

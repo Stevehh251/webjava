@@ -4,7 +4,6 @@ import lombok.*;
 
 import jakarta.persistence.*;
 import java.util.Date;
-import java.util.Objects;
 
 @Entity
 @Table(name = "Payments_Policies")
@@ -32,7 +31,7 @@ public class PaymentsPolicies implements DefaultEntity<Long> {
     @JoinColumn(name = "proj_id")
     @ToString.Exclude
     @NonNull
-    private Projects project;
+    private Project project;
 
     @Column(nullable = false, name = "periodicity")
     @NonNull

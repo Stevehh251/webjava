@@ -4,7 +4,6 @@ import lombok.*;
 
 import jakarta.persistence.*;
 import java.util.Date;
-import java.util.Objects;
 
 @Entity
 @Table(name = "payments_history")
@@ -24,7 +23,7 @@ public class PaymentsHistory implements DefaultEntity<Long> {
     @JoinColumn(name = "emp_id")
     @ToString.Exclude
     @NonNull
-    private Employees employee;
+    private Employee employee;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "policy_id")

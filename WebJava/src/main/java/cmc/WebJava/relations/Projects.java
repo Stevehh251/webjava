@@ -2,6 +2,10 @@ package cmc.WebJava.relations;
 
 import lombok.*;
 
+import jakarta.persistence.*;
+import java.util.Date;
+import java.util.Objects;
+
 @Entity
 @Table(name = "projects")
 @Getter
@@ -14,7 +18,7 @@ public class Projects implements DefaultEntity<Long> {
 
     @Id
     @Column(nullable = false, name = "proj_id")
-    private Long proj_id;
+    private Long id;
 
     @Column(nullable = false, name = "name")
     @NonNull

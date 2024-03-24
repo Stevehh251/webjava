@@ -2,6 +2,10 @@ package cmc.WebJava.relations;
 
 import lombok.*;
 
+import jakarta.persistence.*;
+import java.util.Date;
+import java.util.Objects;
+
 @Entity
 @Table(name = "employees")
 @Getter
@@ -13,8 +17,9 @@ import lombok.*;
 public class Employees implements DefaultEntity<Long> {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, name = "emp_id")
-    private Long emp_id;
+    private Long id;
 
     @Column(nullable = false, name = "name")
     @NonNull
@@ -35,4 +40,5 @@ public class Employees implements DefaultEntity<Long> {
     @Column(nullable = false, name = "emp_date")
     @NonNull
     private Date emp_date;
+
 }

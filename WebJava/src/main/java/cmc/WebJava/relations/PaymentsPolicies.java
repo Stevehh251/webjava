@@ -2,6 +2,10 @@ package cmc.WebJava.relations;
 
 import lombok.*;
 
+import jakarta.persistence.*;
+import java.util.Date;
+import java.util.Objects;
+
 @Entity
 @Table(name = "Payments_Policies")
 @Getter
@@ -14,7 +18,7 @@ public class PaymentsPolicies implements DefaultEntity<Long> {
 
     @Id
     @Column(nullable = false, name = "policy_id")
-    private Long policy_id;
+    private Long id;
 
     @Column(nullable = false, name = "name")
     @NonNull

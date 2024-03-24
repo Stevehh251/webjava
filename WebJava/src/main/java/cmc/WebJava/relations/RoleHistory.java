@@ -2,6 +2,10 @@ package cmc.WebJava.relations;
 
 import lombok.*;
 
+import jakarta.persistence.*;
+import java.util.Date;
+import java.util.Objects;
+
 @Entity
 @Table(name = "role_history")
 @Getter
@@ -14,7 +18,7 @@ public class RoleHistory implements DefaultEntity<Long> {
 
     @Id
     @Column(nullable = false, name = "record_id")
-    private Long record_id;
+    private Long id;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "proj_id")

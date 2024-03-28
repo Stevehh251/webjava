@@ -30,7 +30,6 @@ public class HibernateDatabaseConfig {
 
         Properties hibernateProperties = new Properties();
         hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");
-        hibernateProperties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         hibernateProperties.setProperty("connection_pool_size", "1");
 
         sessionFactory.setHibernateProperties(hibernateProperties);
